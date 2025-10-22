@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planet Planet-an</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/header.jpg" alt="Logo">
+      <h1>Planet Planet-an</h1>
+      <p>Menulis dengan gaya penuh ide dan keindahan</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Beranda</a></li>
+      <li><a href="#">Artikel</a>
+        <ul class="submenu">
+          <li><a href="#">Teknologi</a></li>
+          <li><a href="#">Desain</a></li>
+          <li><a href="#">Tips</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Profil</a>
+        <ul class="submenu">
+          <li><a href="#">Tentang Kami</a></li>
+          <li><a href="#">Kontak</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="content">
+      <article>
+		<img src="images/artikel1.jpg" alt="Artikel 1">
+		<h2>Belajar Web dengan HTML + CSS3</h2>
+		<p>HTML dan CSS adalah dua fondasi utama...</p>
+		<a href="baca1.html" class="btn">Baca selengkapnya...</a>
+	</article>
+
+<article>
+  <img src="images/artikel2.jpg" alt="Artikel 2">
+  <h2>Mockup Web dengan Word</h2>
+  <p>Microsoft Word bisa digunakan untuk membuat rancangan layout web sederhana...</p>
+  <a href="baca2.html" class="btn">Baca selengkapnya...</a>
+</article>
+
+<article>
+  <img src="images/artikel3.jpg" alt="Artikel 3">
+  <h2>Desain Web Statis</h2>
+  <p>Website statis cocok untuk proyek kecil seperti profil usaha...</p>
+  <a href="baca3.html" class="btn">Baca selengkapnya...</a>
+</article>
+
+    </section>
+
+    <aside>
+      <h3>Berita Populer</h3>
+      <ul>
+        <li>Belajar HTML dan CSS3</li>
+        <li>Mockup Web dengan Word</li>
+        <li>Desain Web Statis</li>
+      </ul>
+
+      <h3>Artikel Populer</h3>
+      <ul>
+        <li>Artikel 1</li>
+        <li>Artikel 2</li>
+        <li>Artikel 3</li>
+      </ul>
+
+      <h3>Berita Selanjutnya</h3>
+      <ul>
+        <li>UINSU Ganti Logo</li>
+        <li>RUSIA Damai</li>
+        <li>Cuaca di Medan</li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="footer-box">
+      <div>
+        <h4>Layanan</h4>
+        <p>E-Mail<br>Telepon<br>Whatsapp<br>Surat</p>
+      </div>
+      <div>
+        <h4>Business Hour</h4>
+        <p>Senin - Jumat: 08.00 - 16.00<br>Sabtu: 08.00 - 12.00<br>Minggu: Tutup</p>
+      </div>
+      <div>
+        <h4>Head Office</h4>
+        <p>Jl. Web Indah No. 7 Medan Estate<br>Telp: (061) 555-123<br>Email: info@stasionerikvb.com</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
