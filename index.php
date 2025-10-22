@@ -9,7 +9,7 @@
 <body>
   <header>
     <div class="logo">
-      <img src="img/header.jpg" alt="Logo">
+      <img src="header.jpg" alt="Logo">
       <h1>Planet Planet-an</h1>
       <p>Menulis dengan gaya penuh ide dan keindahan</p>
     </div>
@@ -37,21 +37,21 @@
   <main>
     <section class="content">
       <article>
-		<img src="img/artikel1.jpg" alt="Artikel 1">
+		<img src="artikel1.jpg" alt="Artikel 1">
 		<h2>Belajar Web dengan HTML + CSS3</h2>
 		<p>HTML dan CSS adalah dua fondasi utama...</p>
 		<a href="baca1.html" class="btn">Baca selengkapnya...</a>
 	</article>
 
 <article>
-  <img src="img/artikel2.jpg" alt="Artikel 2">
+  <img src="artikel2.jpg" alt="Artikel 2">
   <h2>Mockup Web dengan Word</h2>
   <p>Microsoft Word bisa digunakan untuk membuat rancangan layout web sederhana...</p>
   <a href="baca2.html" class="btn">Baca selengkapnya...</a>
 </article>
 
 <article>
-  <img src="img/artikel3.jpg" alt="Artikel 3">
+  <img src="artikel3.jpg" alt="Artikel 3">
   <h2>Desain Web Statis</h2>
   <p>Website statis cocok untuk proyek kecil seperti profil usaha...</p>
   <a href="baca3.html" class="btn">Baca selengkapnya...</a>
@@ -101,4 +101,5 @@
   </footer>
 </body>
 </html>
+
 
