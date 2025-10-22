@@ -1,0 +1,209 @@
+/* === RESET DASAR === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f5f6fa;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* === HEADER === */
+header {
+  background: linear-gradient(90deg, #ff4b2b, #ff6b1a);
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+header .logo img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+header h1 {
+  font-size: 2rem;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+header p {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+/* === NAVIGATION === */
+nav {
+  background: #222;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav ul li {
+  position: relative;
+}
+nav ul li a {
+  display: block;
+  padding: 14px 20px;
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s;
+  font-weight: 500;
+}
+nav ul li a:hover {
+  background: #ff6b1a;
+}
+
+/* === SUBMENU === */
+nav ul ul {
+  display: none;
+  position: absolute;
+  background: #333;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  border-radius: 0 0 6px 6px;
+}
+nav ul li:hover ul {
+  display: block;
+}
+nav ul ul li a {
+  padding: 10px 15px;
+}
+nav ul ul li a:hover {
+  background: #ff6b1a;
+}
+
+/* === MAIN CONTENT === */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1100px;
+  margin: 30px auto;
+  gap: 20px;
+}
+
+/* === ARTIKEL === */
+.content {
+  flex: 3;
+  min-width: 640px;
+}
+.content article {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+  padding: 15px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.content article:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+.content img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.content h2 {
+  color: #ff4b2b;
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+.content p {
+  font-size: 0.95rem;
+  color: #444;
+}
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  background: linear-gradient(90deg, #ff4b2b, #ff6b1a);
+  color: white;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+}
+.btn:hover {
+  background: linear-gradient(90deg, #ff6b1a, #ff4b2b);
+}
+
+/* === SIDEBAR === */
+aside {
+  flex: 1;
+  min-width: 260px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  height: fit-content;
+}
+aside h3 {
+  color: #ff4b2b;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ff6b1a;
+  padding-bottom: 5px;
+}
+aside ul {
+  list-style: none;
+}
+aside ul li {
+  margin: 8px 0;
+  color: #333;
+}
+aside ul li:hover {
+  color: #ff6b1a;
+  cursor: pointer;
+}
+
+/* === FOOTER === */
+footer {
+  background: #222;
+  color: #ddd;
+  text-align: center;
+  padding: 25px 10px;
+  margin-top: 40px;
+}
+.footer-box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.footer-box div {
+  flex: 1;
+  min-width: 220px;
+}
+footer h4 {
+  color: #ff6b1a;
+  margin-bottom: 8px;
+}
+footer p {
+  font-size: 0.9rem;
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .content {
+    min-width: 100%;
+  }
+  aside {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
